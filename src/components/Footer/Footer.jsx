@@ -5,8 +5,8 @@ import { motion } from "framer-motion"
 const Footer = () => {
     return (
         <footer className="py-28 bg-[#f7f7f7]">
-            <motion.div
-             className="container">
+            <motion.div initial={{ opacity: 0, y: 50 }} whileInView={{ opacity: 1, y: 0 }}
+                className="container">
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14 md:gap-4">
                     {/* First Section */}
                     <div className="space-y-4 max-w-[300px]">
@@ -54,16 +54,16 @@ const Footer = () => {
                         {/* socials */}
                         <div className="flex space-x-6 py-3">
                             <a href="#">
-                                <FaWhatsapp className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
+                                <FaWhatsapp className="text-2xl cursor-pointer hover:text-primary hover:scale-105 duration-200" />
                             </a>
                             <a href="#">
-                                <FaInstagram className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
+                                <FaInstagram className="text-2xl cursor-pointer hover:text-primary hover:scale-105 duration-200" />
                             </a>
                             <a href="#">
-                                <TbWorldWww className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
+                                <TbWorldWww className="text-2xl cursor-pointer hover:text-primary hover:scale-105 duration-200" />
                             </a>
                             <a href="#">
-                                <FaWhatsapp className="cursor-pointer hover:text-primary hover:scale-105 duration-200" />
+                                <FaWhatsapp className="text-2xl cursor-pointer hover:text-primary hover:scale-105 duration-200" />
                             </a>
 
                         </div>

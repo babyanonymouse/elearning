@@ -47,7 +47,7 @@ const Navbar = () => {
                                 <a
                                     href={menu.path}
                                     className="inline-block py-2 px-3 hover:text-secondary relative group">
-                                    <div className="w-2 h-2 bg-secondary absolute mr-2 rounded-full left-1/2 -translate-x-1/2 top-1/2 bottom-0 group-hover:block hidden"></div>
+                                    <div className="w-2 h-2 bg-secondary absolute mt-2 rounded-full left-1/2 -translate-x-1/2 top-1/2 bottom-0 group-hover:block hidden"></div>
                                     {menu.title}
                                 </a>
                             </li>
